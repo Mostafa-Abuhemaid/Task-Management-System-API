@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Web.Application.DTOs.CategoryDTO;
+using Web.Domain.Entites;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Web.Application.Mapping
@@ -12,6 +14,7 @@ namespace Web.Application.Mapping
     {
         public MappingProfile()
         {
+            CreateMap<Category, GetGategoryDto>();
         }
     }
 }

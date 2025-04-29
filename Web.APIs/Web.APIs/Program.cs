@@ -34,6 +34,7 @@ namespace Web.APIs
             builder.Services.AddTransient<IEmailService, EmailService>();
             builder.Services.AddScoped<IAccountService, AccountService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddMemoryCache();
             var app = builder.Build();
