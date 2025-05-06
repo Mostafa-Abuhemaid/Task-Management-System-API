@@ -348,3 +348,10 @@ F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\obj\Debug\net8.0\sco
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\obj\Debug\net8.0\Web.APIs.csproj.Up2Date
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\obj\Debug\net8.0\Web.APIs.genruntimeconfig.cache
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\obj\Debug\net8.0\ref\Web.APIs.dll
+F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Google.Apis.dll
+F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Google.Apis.Auth.dll
+F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Google.Apis.Core.dll
+F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System.Management.dll
+F:\My Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll

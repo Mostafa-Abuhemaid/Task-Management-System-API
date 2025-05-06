@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "Web.APIs.Controllers.AccountController",
+    "Method": "GoogleLogin",
+    "RelativePath": "api/Account/google-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.APIs.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/Login",
     "HttpMethod": "POST",

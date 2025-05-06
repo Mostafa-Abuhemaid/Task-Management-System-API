@@ -76,6 +76,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.15": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.14": {
         "type": "package",
         "compile": {
@@ -1210,6 +1226,21 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.15": {
+      "sha512": "AjlL4AAfH7UZ1L4wYxUABd50aD2E1svyqa02fpsjMcjX3utqvHXwBceIyrI4X9ulfzRytE/BcbV2QTzn73/93w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.8.0.15.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.14": {
@@ -3038,6 +3069,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "Microsoft.AspNetCore.Authentication.Google >= 8.0.15",
       "Microsoft.AspNetCore.Http.Features >= 5.0.17",
       "Web.Domain >= 1.0.0"
     ]
@@ -3098,6 +3130,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.1, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[8.0.15, )"
           },
           "Microsoft.AspNetCore.Http.Features": {
             "target": "Package",

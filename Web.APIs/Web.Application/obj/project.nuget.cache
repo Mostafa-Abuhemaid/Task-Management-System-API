@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ebIN2Uyrcn70y072245AB6rxOO+pDc0JwCIgIGmky1ShlKsaPLQMcSaONPFKdTiDenm9H6I7zDCIy5WG2BNS7Q==",
+  "dgSpecHash": "+sj5VcHg/509nZeJ4hD7LtmybySyx61kby2ylip00uCQcHE/JnhkkDdbz5wqSOm9WaGiABX84pFJK40ruHRHAg==",
   "success": true,
   "projectFilePath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\CS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.15\\microsoft.aspnetcore.authentication.google.8.0.15.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.14\\microsoft.aspnetcore.cryptography.internal.8.0.14.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.14\\microsoft.aspnetcore.cryptography.keyderivation.8.0.14.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

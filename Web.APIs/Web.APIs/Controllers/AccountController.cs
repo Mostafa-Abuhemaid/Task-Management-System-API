@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
 using Web.Application.DTOs;
 using Web.Application.DTOs.AccountDTO;
+using Web.Application.Interfaces;
+using Web.Application.Interfaces.ExternalAuthService;
 using Web.Application.Response;
 using Web.Infrastructure.Service;
 
@@ -11,11 +14,13 @@ namespace Web.APIs.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        private readonly AccountService _accountService;
-        public AccountController(AccountService accountService)
+        private readonly IAccountService _accountService;
+        private readonly IGoogleService _googleService;
+        public AccountController(AccountService accountService, IGoogleService googleService)
         {
 
             _accountService = accountService;
+            _googleService = googleService;
         }
         [HttpPost("Login")]
         public async Task<ActionResult<BaseResponse<TokenDTO>>> Login(LoginDTO loginDto)
@@ -45,5 +50,12 @@ namespace Web.APIs.Controllers
             var result = await _accountService.ResetPasswordAsync(resetPassword);
             return result.Success ? Ok(result) : BadRequest(result);
         }
+        [HttpPost("google-login")]
+        public async Task<IActionResult> GoogleLogin( string idToken)
+        {
+            var result = await _googleService.GoogleSignInAsync(idToken);
+            return result.Success ? Ok(result) : BadRequest(result);
+        }
+
     }
 }

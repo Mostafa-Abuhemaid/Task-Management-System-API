@@ -1,7 +1,10 @@
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using Web.Application.DTOs.EmailDTO;
 using Web.Application.Interfaces;
 using Web.Application.Mapping;
@@ -37,7 +40,40 @@ namespace Web.APIs
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddMemoryCache();
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+           .AddJwtBearer(o =>
+           {
+               o.RequireHttpsMetadata = false;
+               o.SaveToken = false;
+               o.TokenValidationParameters = new TokenValidationParameters
+               {
+                   ValidateIssuerSigningKey = true,
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Key"])),
+
+                   ValidateIssuer = true,
+                   ValidIssuer = configuration["JWT:Issuer"],
+
+                   ValidateAudience = true,
+                   ValidAudience = configuration["JWT:Audience"],
+
+                   ValidateLifetime = true,
+                   ClockSkew = TimeSpan.Zero
+               };
+           }).AddGoogle("Google", options =>
+           {
+               options.ClientId = "670016602508-18rt5v58f515kks4b3qctp4kqpbpc32l.apps.googleusercontent.com";
+               options.ClientSecret ="GOCSPX - LuYp5dLq_1YGOWdVq7h1IrcMpfH9";
+               options.CallbackPath = "/signin-google";
+           });
+
             var app = builder.Build();
+
 
             if (app.Environment.IsDevelopment())
             {
