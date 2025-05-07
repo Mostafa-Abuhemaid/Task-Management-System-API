@@ -10,6 +10,7 @@ namespace Web.Application.Interfaces
 {
     public interface IAccountService
     {
+        Task<BaseResponse<TokenDTO>> RegisterAsync(RegisterDto loginDto);
         Task<BaseResponse<TokenDTO>> LoginAsync(LoginDTO loginDto);
         Task<BaseResponse<string>> ForgotPasswordAsync(ForgetPasswordDto request);
         Task<BaseResponse<bool>> VerifyOTPAsync(VerfiyCodeDto verify);

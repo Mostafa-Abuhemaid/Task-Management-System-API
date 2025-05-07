@@ -4,13 +4,18 @@ using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Numerics;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Web.Application.DTOs.AccountDTO;
+using Web.Application.Files;
 using Web.Application.Interfaces;
 using Web.Application.Response;
 using Web.Domain.Entites;
+using Web.Domain.Enums;
 
 namespace Web.Infrastructure.Service
 {
@@ -30,6 +35,7 @@ namespace Web.Infrastructure.Service
             _memoryCache = memoryCache;
             _emailService = emailService;
         }
+
         public async Task<BaseResponse<string>> ForgotPasswordAsync(ForgetPasswordDto request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
@@ -66,6 +72,49 @@ namespace Web.Infrastructure.Service
 
             return new BaseResponse<TokenDTO>(true, "تم تسجيل الدخول بنجاح", res);
         }
+
+        public async Task<BaseResponse<TokenDTO>> RegisterAsync(RegisterDto registerDto)
+        {
+            if (registerDto.Password != registerDto.ConfirmPassword)
+                return new BaseResponse<TokenDTO>(false, "Password and confirmation password do not match.");
+
+            if (!new EmailAddressAttribute().IsValid(registerDto.Email))
+                return new BaseResponse<TokenDTO>(false, "Invalid email format.");
+
+            var existingUser = await _userManager.FindByEmailAsync(registerDto.Email);
+            if (existingUser != null)
+                return new BaseResponse<TokenDTO>(false, "A user with this email already exists.");
+
+            var passwordPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$";
+            if (!Regex.IsMatch(registerDto.Password, passwordPattern))
+            {
+                return new BaseResponse<TokenDTO>(false, "Password must contain uppercase and lowercase letters, numbers, and special characters.");
+            }
+
+            var user = new AppUser
+            {
+                UserName = registerDto.Name,
+                Email = registerDto.Email,
+            };
+
+            var result = await _userManager.CreateAsync(user, registerDto.Password);
+
+            if (!result.Succeeded)
+                return new BaseResponse<TokenDTO>(false, "Failed to create account.");
+
+            await _userManager.AddToRoleAsync(user, Roles.User.ToString());
+
+            var response = new TokenDTO
+            {
+               
+                Name=registerDto.Name,
+                Email = registerDto.Email,
+                Token = await _tokenService.GenerateTokenAsync(user, _userManager)
+            };
+
+            return new BaseResponse<TokenDTO>(true, "Account created successfully.", response);
+        }
+
 
         public async Task<BaseResponse<bool>> ResetPasswordAsync(ResetPasswordDto resetPassword)
         {

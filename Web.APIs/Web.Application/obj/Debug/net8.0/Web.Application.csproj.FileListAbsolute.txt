@@ -30,3 +30,19 @@ F:\My Projects\Task-Management-System-API\Web.APIs\Web.Application\bin\Debug\net
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Domain.pdb
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Appl.6218106C.Up2Date
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\ref\Web.Application.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.deps.json
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.pdb
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Domain.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Domain.pdb
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.csproj.AssemblyReference.cache
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.AssemblyInfoInputs.cache
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.AssemblyInfo.cs
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.csproj.CoreCompileInputs.cache
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.sourcelink.json
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Appl.6218106C.Up2Date
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\refint\Web.Application.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.pdb
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Application\obj\Debug\net8.0\ref\Web.Application.dll

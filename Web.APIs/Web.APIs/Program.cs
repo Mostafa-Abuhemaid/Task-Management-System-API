@@ -7,10 +7,12 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Web.Application.DTOs.EmailDTO;
 using Web.Application.Interfaces;
+using Web.Application.Interfaces.ExternalAuthService;
 using Web.Application.Mapping;
 using Web.Domain.Entites;
 using Web.Infrastructure.Data;
 using Web.Infrastructure.Service;
+using Web.Infrastructure.Service.ExternalAuthService;
 
 namespace Web.APIs
 {
@@ -36,7 +38,9 @@ namespace Web.APIs
             builder.Services.Configure<EmailDto>(configuration.GetSection("MailSettings"));
             builder.Services.AddTransient<IEmailService, EmailService>();
             builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IGoogleService, GoogleService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<ITaskService, TaskService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddMemoryCache();

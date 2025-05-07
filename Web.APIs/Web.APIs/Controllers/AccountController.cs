@@ -16,11 +16,18 @@ namespace Web.APIs.Controllers
     {
         private readonly IAccountService _accountService;
         private readonly IGoogleService _googleService;
-        public AccountController(AccountService accountService, IGoogleService googleService)
+        public AccountController(IAccountService accountService, IGoogleService googleService)
         {
 
             _accountService = accountService;
             _googleService = googleService;
+        }
+        [HttpPost("Register")]
+        public async Task<ActionResult<BaseResponse<TokenDTO>>> Login(RegisterDto registerDto)
+        {
+            var result = await _accountService.RegisterAsync(registerDto);
+            return result.Success ? Ok(result) : BadRequest(result);
+
         }
         [HttpPost("Login")]
         public async Task<ActionResult<BaseResponse<TokenDTO>>> Login(LoginDTO loginDto)

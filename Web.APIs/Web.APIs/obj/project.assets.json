@@ -4775,11 +4775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Web.APIs.csproj",
+      "projectUniqueName": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Web.APIs.csproj",
       "projectName": "Web.APIs",
-      "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Web.APIs.csproj",
+      "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Web.APIs.csproj",
       "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-      "outputPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\obj\\",
+      "outputPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4800,11 +4800,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj": {
-              "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj"
+            "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj": {
+              "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj"
             },
-            "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj": {
-              "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj"
+            "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj": {
+              "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj"
             }
           }
         }

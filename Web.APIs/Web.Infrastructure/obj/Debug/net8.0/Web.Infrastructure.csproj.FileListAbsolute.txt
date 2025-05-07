@@ -34,3 +34,21 @@ F:\My Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\net8.0\Web.Domain.pdb
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infr.59F9D258.Up2Date
 F:\My Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\ref\Web.Infrastructure.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\net8.0\Web.Infrastructure.deps.json
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\net8.0\Web.Infrastructure.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\net8.0\Web.Infrastructure.pdb
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\net8.0\Web.Application.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\net8.0\Web.Domain.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\net8.0\Web.Application.pdb
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\bin\Debug\net8.0\Web.Domain.pdb
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.csproj.AssemblyReference.cache
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.AssemblyInfoInputs.cache
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.AssemblyInfo.cs
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.sourcelink.json
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infr.59F9D258.Up2Date
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\refint\Web.Infrastructure.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.pdb
+F:\Projects\Task-Management-System-API\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\ref\Web.Infrastructure.dll

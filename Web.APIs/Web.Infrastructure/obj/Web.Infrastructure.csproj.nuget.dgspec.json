@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj": {}
+    "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj": {}
   },
   "projects": {
-    "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj": {
+    "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj",
+        "projectUniqueName": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj",
         "projectName": "Web.Application",
-        "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj",
+        "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\obj\\",
+        "outputPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj": {
-                "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj"
+              "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj": {
+    "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj",
+        "projectUniqueName": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj",
         "projectName": "Web.Domain",
-        "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj",
+        "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\obj\\",
+        "outputPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,14 +170,14 @@
         }
       }
     },
-    "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj": {
+    "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj",
+        "projectUniqueName": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj",
         "projectName": "Web.Infrastructure",
-        "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj",
+        "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\obj\\",
+        "outputPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -198,11 +198,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj": {
-                "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj"
+              "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj": {
+                "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj"
               },
-              "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj": {
-                "projectPath": "F:\\My Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj"
+              "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Web.Domain.csproj"
               }
             }
           }
