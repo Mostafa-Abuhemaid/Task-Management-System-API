@@ -19,7 +19,5 @@ namespace Web.Application.DTOs.TaskDTO
         public DateTime DueDate { get; set; }
        
         public int CategoryId { get; set; }
-       
-        public string UserId { get; set; }
     }
 }
