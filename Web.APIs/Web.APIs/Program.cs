@@ -41,6 +41,7 @@ namespace Web.APIs
             builder.Services.AddScoped<IGoogleService, GoogleService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<ITaskService, TaskService>();
+            builder.Services.AddScoped<IUserService,UserService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddMemoryCache();
