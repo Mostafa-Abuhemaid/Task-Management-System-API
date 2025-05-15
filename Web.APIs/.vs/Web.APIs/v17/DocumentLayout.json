@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|solutionrelative:web.apis\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|f:\\projects\\task-management-system-api\\web.apis\\web.apis\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.apis\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|solutionrelative:web.apis\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|f:\\projects\\task-management-system-api\\web.apis\\web.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|solutionrelative:web.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -169,8 +169,7 @@
               "RelativeToolTip": "Web.APIs\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T20:18:13.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T20:18:13.891Z"
             },
             {
               "$type": "Document",
@@ -180,7 +179,7 @@
               "RelativeDocumentMoniker": "Web.APIs\\Controllers\\UserController.cs",
               "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Controllers\\UserController.cs",
               "RelativeToolTip": "Web.APIs\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACoAAAAAzszMzMwMwDgAAAAYAAAA",
+              "ViewState": "AQIAACoAAAAAzszMzMwMwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T20:13:04.502Z",
               "EditorCaption": ""
@@ -291,8 +290,7 @@
               "RelativeToolTip": "Web.APIs\\Program.cs",
               "ViewState": "AQIAABUAAAAAmpmZmZkdwCsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T23:51:04.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T23:51:04.198Z"
             },
             {
               "$type": "Document",
