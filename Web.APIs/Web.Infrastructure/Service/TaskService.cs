@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using Web.Application.DTOs.TaskDTO;
 using Web.Application.Interfaces;
 using Web.Application.Response;
 using Web.Domain.Entites;
+using Web.Domain.Hubs;
 using Web.Infrastructure.Data;
 
 namespace Web.Infrastructure.Service
@@ -17,10 +19,12 @@ namespace Web.Infrastructure.Service
     {
         private readonly AppDbContext _DbContext;
         private readonly UserManager<AppUser> _userManager;
-        public TaskService(AppDbContext dbContext, UserManager<AppUser> userManager)
+        private readonly INotificationService _notificationService;
+        public TaskService(AppDbContext dbContext, UserManager<AppUser> userManager, INotificationService notificationService)
         {
             _DbContext = dbContext;
             _userManager = userManager;
+            _notificationService = notificationService;
         }
 
         public async Task<BaseResponse<GetTaskDto>> CreateTaskAsync(string UserId, AddTaskDto addTaskDto)
@@ -43,7 +47,7 @@ namespace Web.Infrastructure.Service
             await _DbContext.SaveChangesAsync();
 
           
-            //  BackgroundJob.Schedule(() => _notificationService.SendTaskReminder(task.Id), task.DueDate);
+           //   BackgroundJob.Schedule(() => _notificationService.SendTaskReminder(task.Id), task.DueDate);
             return new BaseResponse<GetTaskDto>(true, "Task Created Successfully");
         }
 

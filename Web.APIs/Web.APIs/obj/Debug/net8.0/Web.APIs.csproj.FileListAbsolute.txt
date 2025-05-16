@@ -390,10 +390,13 @@ F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Micros
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -424,6 +427,7 @@ F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System.Management.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System.Memory.Data.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System.Runtime.Caching.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\System.Security.Permissions.dll

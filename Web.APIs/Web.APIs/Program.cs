@@ -10,6 +10,7 @@ using Web.Application.Interfaces;
 using Web.Application.Interfaces.ExternalAuthService;
 using Web.Application.Mapping;
 using Web.Domain.Entites;
+using Web.Domain.Hubs;
 using Web.Infrastructure.Data;
 using Web.Infrastructure.Service;
 using Web.Infrastructure.Service.ExternalAuthService;
@@ -33,8 +34,10 @@ namespace Web.APIs
             builder.Services.AddIdentity<AppUser, IdentityRole>()
              .AddRoles<IdentityRole>()
              .AddEntityFrameworkStores<AppDbContext>()
-
              .AddDefaultTokenProviders();
+            builder.Services.AddSignalR();
+            builder.Services.AddCors(options => options.AddPolicy("CorsPolicy",
+                builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
             builder.Services.Configure<EmailDto>(configuration.GetSection("MailSettings"));
             builder.Services.AddTransient<IEmailService, EmailService>();
             builder.Services.AddScoped<IAccountService, AccountService>();
@@ -43,6 +46,7 @@ namespace Web.APIs
             builder.Services.AddScoped<ITaskService, TaskService>();
             builder.Services.AddScoped<IUserService,UserService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddSingleton<INotificationService, NotificationService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddMemoryCache();
 
@@ -89,9 +93,12 @@ namespace Web.APIs
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+           
 
             app.MapControllers();
+            app.UseCors("CorsPolicy");
+
+            app.MapHub<NotificationHub>("/notificationHub");
 
             app.Run();
         }
