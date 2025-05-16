@@ -8,6 +8,6 @@ namespace Web.Application.Interfaces
 {
     public interface INotificationService
     {
-        Task SendTaskReminder(string userId, string message);
+        Task SendTaskReminder(int TaskId);
     }
 }

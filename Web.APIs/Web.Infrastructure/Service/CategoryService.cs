@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,20 +19,26 @@ namespace Web.Infrastructure.Service
     {
         private readonly AppDbContext _DbContext;
         private readonly IMapper _mapper;
-        public CategoryService(AppDbContext dbContext, IMapper mapper)
+        private readonly UserManager<AppUser> _userManager;
+        public CategoryService(AppDbContext dbContext, IMapper mapper, UserManager<AppUser> userManager)
         {
             _DbContext = dbContext;
             _mapper = mapper;
+            _userManager = userManager;
         }
-        public async Task<BaseResponse<GetGategoryDto>> CreateCategoryAsync(AddGategoryDto addCategoryDTO)
+        public async Task<BaseResponse<GetGategoryDto>> CreateCategoryAsync(string userId, AddGategoryDto addCategoryDTO)
         {
-            if(addCategoryDTO == null)
+            var User = await _userManager.FindByIdAsync(userId);
+            if (User == null)
+                return new BaseResponse<GetGategoryDto>(false, $"No user with this id : {userId}");
+            if (addCategoryDTO == null)
             {
                 return new BaseResponse<GetGategoryDto>(false, "You Can't Add Empty Category");
             }
          var category = new Category()
          {
-             Name = addCategoryDTO.Name
+             Name = addCategoryDTO.Name,
+             UserId= userId
          };
          await   _DbContext.AddAsync(category);
            await _DbContext.SaveChangesAsync();
@@ -39,9 +46,12 @@ namespace Web.Infrastructure.Service
             return new BaseResponse<GetGategoryDto>(true, "The new Categoty had Added successfuly", CategoryDto);
         }
 
-        public async Task<BaseResponse<bool>> DeleteCategoryAsync(int categoryId)
+        public async Task<BaseResponse<bool>> DeleteCategoryAsync(string userId,int categoryId)
         {
-           var Cat = _DbContext.Categories.FirstOrDefault(c=> c.Id == categoryId);
+            var User = await _userManager.FindByIdAsync(userId);
+            if (User == null)
+                return new BaseResponse<bool>(false, $"No user with this id : {userId}");
+            var Cat = _DbContext.Categories.FirstOrDefault(c=> c.Id == categoryId);
             if(Cat == null)
             {
                 return new BaseResponse<bool>(false, $"No Category has id {categoryId}");
@@ -52,9 +62,12 @@ namespace Web.Infrastructure.Service
            
         }
 
-        public async Task<BaseResponse<List<GetGategoryDto>>> GetAllCategory()
+        public async Task<BaseResponse<List<GetGategoryDto>>> GetAllCategory(string userId)
         {
-            var Cate = await _DbContext.Categories.ToListAsync();
+            var User = await _userManager.FindByIdAsync(userId);
+            if (User == null)
+                return new BaseResponse<List<GetGategoryDto>>(false, $"No user with this id : {userId}");
+            var Cate = await _DbContext.Categories.Where(c=>c.UserId==userId).ToListAsync();
             if(Cate == null)
             {
                 return new BaseResponse<List<GetGategoryDto>>(true, "No Category Found");
@@ -64,9 +77,9 @@ namespace Web.Infrastructure.Service
             return new BaseResponse<List< GetGategoryDto>>(true, "Categories", CategoryDto);
         }
 
-        public async Task<BaseResponse<GetGategoryDto>> GetCategoryByIdAsync(int categoryId)
+        public async Task<BaseResponse<GetGategoryDto>> GetCategoryByIdAsync(string userId,int categoryId)
         {
-            var Cat = _DbContext.Categories.FirstOrDefault(c => c.Id == categoryId);
+            var Cat = _DbContext.Categories.Where(c => c.UserId == userId).FirstOrDefault(c => c.Id == categoryId);
             if (Cat == null)
             {
                 return new BaseResponse<GetGategoryDto>(false, $"No Category has id {categoryId}");
@@ -76,9 +89,12 @@ namespace Web.Infrastructure.Service
             return new BaseResponse<GetGategoryDto>(true, "Category", CategoryDto);
         }
 
-        public async Task<BaseResponse<GetGategoryDto>> UpdateCategoryAsync(int id, AddGategoryDto addCategoryDTO)
+        public async Task<BaseResponse<GetGategoryDto>> UpdateCategoryAsync(string userId,int id, AddGategoryDto addCategoryDTO)
         {
-            var Cat = _DbContext.Categories.FirstOrDefault(c => c.Id == id);
+            var User = await _userManager.FindByIdAsync(userId);
+            if (User == null)
+                return new BaseResponse<GetGategoryDto>(false, $"No user with this id : {userId}");
+            var Cat = _DbContext.Categories.Where(c => c.UserId == userId).FirstOrDefault(c => c.Id == id);
             if (Cat == null)
             {
                 return new BaseResponse<GetGategoryDto>(false, $"No Category has id {id}");

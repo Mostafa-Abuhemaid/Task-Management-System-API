@@ -170,8 +170,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "PostId",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -202,13 +207,18 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "PostId",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
         "Name": "addGategoryDto",
         "Type": "Web.Application.DTOs.CategoryDTO.AddGategoryDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],

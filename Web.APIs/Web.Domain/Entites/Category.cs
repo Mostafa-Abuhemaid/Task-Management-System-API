@@ -8,8 +8,11 @@ namespace Web.Domain.Entites
 {
     public class Category:BaseClass<int>
     {
+        
         public string Name { get; set; }
 
         public ICollection<TaskItem> Tasks { get; set; }= new HashSet<TaskItem>();
+        public string UserId { get; set; }
+        public AppUser User { get; set; }
     }
 }

@@ -11,10 +11,10 @@ namespace Web.Application.Interfaces
 {
     public interface ICategoryService
     {
-        Task<BaseResponse<GetGategoryDto>> CreateCategoryAsync(AddGategoryDto  addCategoryDTO);
-        Task<BaseResponse<GetGategoryDto>> GetCategoryByIdAsync(int categoryId);
-        Task<BaseResponse<bool>> DeleteCategoryAsync(int categoryId);
-        Task<BaseResponse<List<GetGategoryDto>>> GetAllCategory();
-        Task<BaseResponse<GetGategoryDto>> UpdateCategoryAsync(int id, AddGategoryDto addCategoryDTO);
+        Task<BaseResponse<GetGategoryDto>> CreateCategoryAsync(string userId, AddGategoryDto  addCategoryDTO);
+        Task<BaseResponse<GetGategoryDto>> GetCategoryByIdAsync(string userId, int categoryId);
+        Task<BaseResponse<bool>> DeleteCategoryAsync(string userId, int categoryId);
+        Task<BaseResponse<List<GetGategoryDto>>> GetAllCategory(string userId );
+        Task<BaseResponse<GetGategoryDto>> UpdateCategoryAsync(string userId, int id, AddGategoryDto addCategoryDTO);
     }
 }

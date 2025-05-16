@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Hangfire;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -46,8 +47,7 @@ namespace Web.Infrastructure.Service
             _DbContext.Tasks.Add(task);
             await _DbContext.SaveChangesAsync();
 
-          
-           //   BackgroundJob.Schedule(() => _notificationService.SendTaskReminder(task.Id), task.DueDate);
+            BackgroundJob.Schedule(() => _notificationService.SendTaskReminder(task.Id), task.DueDate);
             return new BaseResponse<GetTaskDto>(true, "Task Created Successfully");
         }
 

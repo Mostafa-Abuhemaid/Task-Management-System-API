@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ERT1tJJTZPjTpa9kin4j+R/NiO3aXuAjII/19l3li23O5lX8Zc1buVf2QWy8t/DRhDSmhD3bLe5D3BxSMLtATw==",
+  "dgSpecHash": "bJGXeA2N04kdAcduuXIQJwJw8KzjofhQy/82R0z7TaPTgmTdmyai6pvOwBEYrbjL+iKxcRb/Q28ZBnTgLF5jRQ==",
   "success": true,
   "projectFilePath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Web.Application.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,11 @@
     "C:\\Users\\CS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\CS\\.nuget\\packages\\hangfire\\1.8.20\\hangfire.1.8.20.nupkg.sha512",
+    "C:\\Users\\CS\\.nuget\\packages\\hangfire.aspnetcore\\1.8.20\\hangfire.aspnetcore.1.8.20.nupkg.sha512",
+    "C:\\Users\\CS\\.nuget\\packages\\hangfire.core\\1.8.20\\hangfire.core.1.8.20.nupkg.sha512",
+    "C:\\Users\\CS\\.nuget\\packages\\hangfire.netcore\\1.8.20\\hangfire.netcore.1.8.20.nupkg.sha512",
+    "C:\\Users\\CS\\.nuget\\packages\\hangfire.sqlserver\\1.8.20\\hangfire.sqlserver.1.8.20.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.15\\microsoft.aspnetcore.authentication.google.8.0.15.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.3.0\\microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",

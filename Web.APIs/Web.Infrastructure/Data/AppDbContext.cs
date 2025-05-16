@@ -24,6 +24,12 @@ namespace Web.Infrastructure.Data
         {
             base.OnModelCreating(modelBuilder);
 
+             modelBuilder.Entity<Category>()
+            .HasOne(c => c.User)
+            .WithMany(u => u.Categories)
+            .HasForeignKey(c => c.UserId)
+            .OnDelete(DeleteBehavior.Restrict);
+
             modelBuilder.Entity<Notification>()
                 .HasOne(n => n.Task)
                 .WithMany()

@@ -228,16 +228,17 @@ namespace Web.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AppUserId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("AppUserId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Categories");
                 });
@@ -364,9 +365,13 @@ namespace Web.Infrastructure.Migrations
 
             modelBuilder.Entity("Web.Domain.Entites.Category", b =>
                 {
-                    b.HasOne("Web.Domain.Entites.AppUser", null)
+                    b.HasOne("Web.Domain.Entites.AppUser", "User")
                         .WithMany("Categories")
-                        .HasForeignKey("AppUserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Web.Domain.Entites.Notification", b =>

@@ -52,14 +52,14 @@ namespace Web.Infrastructure.Service
         public async Task<BaseResponse<TokenDTO>> LoginAsync(LoginDTO loginDto)
         {
             if (loginDto == null)
-                return new BaseResponse<TokenDTO>(false, "بيانات الدخول مطلوبة");
+                return new BaseResponse<TokenDTO>(false, "Login information is requird");
 
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
-            if (user == null) return new BaseResponse<TokenDTO>(false, "البريد الاكتروني غير صحيح");
+            if (user == null) return new BaseResponse<TokenDTO>(false, "The Email or Password in not correct");
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
 
-            if (!result.Succeeded) return new BaseResponse<TokenDTO>(false, "كلمة السر غير صحيحة");
+            if (!result.Succeeded) return new BaseResponse<TokenDTO>(false, "The Email or Password in not correct");
             var roles = await _userManager.GetRolesAsync(user);
             var res = new TokenDTO
             {
@@ -70,7 +70,7 @@ namespace Web.Infrastructure.Service
                 Token = await _tokenService.GenerateTokenAsync(user, _userManager)
             };
 
-            return new BaseResponse<TokenDTO>(true, "تم تسجيل الدخول بنجاح", res);
+            return new BaseResponse<TokenDTO>(true, "Login succesfuly", res);
         }
 
         public async Task<BaseResponse<TokenDTO>> RegisterAsync(RegisterDto registerDto)

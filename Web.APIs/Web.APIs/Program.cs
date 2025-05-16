@@ -1,4 +1,5 @@
 
+using Hangfire;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -35,6 +36,8 @@ namespace Web.APIs
              .AddRoles<IdentityRole>()
              .AddEntityFrameworkStores<AppDbContext>()
              .AddDefaultTokenProviders();
+            builder.Services.AddHangfire(x => x.UseSqlServerStorage(builder.Configuration.GetConnectionString("DefaultConnection")));
+
             builder.Services.AddSignalR();
             builder.Services.AddCors(options => options.AddPolicy("CorsPolicy",
                 builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
@@ -46,8 +49,9 @@ namespace Web.APIs
             builder.Services.AddScoped<ITaskService, TaskService>();
             builder.Services.AddScoped<IUserService,UserService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
-            builder.Services.AddSingleton<INotificationService, NotificationService>();
+            builder.Services.AddScoped<INotificationService, NotificationService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
+            builder.Services.AddHangfireServer();
             builder.Services.AddMemoryCache();
 
             builder.Services.AddAuthentication(options =>
@@ -91,7 +95,7 @@ namespace Web.APIs
             }
 
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
            
 
@@ -99,7 +103,7 @@ namespace Web.APIs
             app.UseCors("CorsPolicy");
 
             app.MapHub<NotificationHub>("/notificationHub");
-
+            app.UseHangfireDashboard("/dashboard");
             app.Run();
         }
     }

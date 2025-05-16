@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using Web.Application.DTOs.CategoryDTO;
 using Web.Application.Interfaces;
 
@@ -17,34 +19,41 @@ namespace Web.APIs.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> AddNewCategory(AddGategoryDto addGategoryDto)
         {
-            var Cate =await _categoryService.CreateCategoryAsync(addGategoryDto);
+            var user = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var Cate =await _categoryService.CreateCategoryAsync(user, addGategoryDto);
             return Cate.Success ? Ok(Cate) : BadRequest(Cate);
         }
         [HttpGet]
         public async Task<IActionResult> GatAllCategoriesAsync()
         {
-            var Cate =await _categoryService.GetAllCategory();
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            var Cate =await _categoryService.GetAllCategory(userId);
             return Cate.Success ? Ok(Cate) : BadRequest(Cate);
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCategoryByIdAsync([FromRoute] int id)
+        public async Task<IActionResult> GetCategoryByIdAsync([FromRoute] int PostId)
         {
-            var Cate = await _categoryService.GetCategoryByIdAsync(id);
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var Cate = await _categoryService.GetCategoryByIdAsync(userId,PostId);
             return Cate.Success ? Ok(Cate) : BadRequest(Cate);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategoryAsync([FromRoute] int id)
         {
-            var Cate =await  _categoryService.DeleteCategoryAsync(id);
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var Cate =await  _categoryService.DeleteCategoryAsync(userId,id);
             return Cate.Success ? Ok(Cate) : BadRequest(Cate);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCategoryAsync([FromRoute]int id,AddGategoryDto addGategoryDto)
+        public async Task<IActionResult> UpdateCategoryAsync([FromRoute]int PostId, AddGategoryDto addGategoryDto)
         {
-            var Cate =await _categoryService.UpdateCategoryAsync(id,addGategoryDto);
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var Cate =await _categoryService.UpdateCategoryAsync(userId,PostId, addGategoryDto);
             return Cate.Success ? Ok(Cate) : BadRequest(Cate);
         }
 
