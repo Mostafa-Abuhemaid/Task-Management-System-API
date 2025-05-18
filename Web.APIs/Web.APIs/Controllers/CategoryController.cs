@@ -35,10 +35,10 @@ namespace Web.APIs.Controllers
             return Cate.Success ? Ok(Cate) : BadRequest(Cate);
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCategoryByIdAsync([FromRoute] int PostId)
+        public async Task<IActionResult> GetCategoryByIdAsync([FromRoute] int id)
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            var Cate = await _categoryService.GetCategoryByIdAsync(userId,PostId);
+            var Cate = await _categoryService.GetCategoryByIdAsync(userId, id);
             return Cate.Success ? Ok(Cate) : BadRequest(Cate);
         }
         [HttpDelete("{id}")]
@@ -50,10 +50,10 @@ namespace Web.APIs.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCategoryAsync([FromRoute]int PostId, AddGategoryDto addGategoryDto)
+        public async Task<IActionResult> UpdateCategoryAsync([FromRoute]int id, AddGategoryDto addGategoryDto)
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            var Cate =await _categoryService.UpdateCategoryAsync(userId,PostId, addGategoryDto);
+            var Cate =await _categoryService.UpdateCategoryAsync(userId, id, addGategoryDto);
             return Cate.Success ? Ok(Cate) : BadRequest(Cate);
         }
 

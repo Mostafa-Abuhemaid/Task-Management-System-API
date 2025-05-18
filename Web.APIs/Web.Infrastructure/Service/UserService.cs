@@ -38,26 +38,19 @@ namespace Web.Infrastructure.Service
             if (user == null) new BaseResponse<bool>(false, $"No User with this email : {model.Id}");
 
 
-            user.UserName = model.Name;
+            user.UserName = model.UserName;
             user.Email = model.Email;
            
 
             var result = await _userManager.UpdateAsync(user);
-            return new BaseResponse<bool>(true, $"User {model.Name} Updated successfully");
+            return new BaseResponse<bool>(true, $"User {model.UserName} Updated successfully");
         }
 
         public async Task<BaseResponse<List<UserDto>>> GetAllUsersAsync()
         {
             var users = await _userManager.Users.ToListAsync();
             var userDtos = _mapper.Map<List<UserDto>>(users);
-            foreach (var userDto in userDtos)
-            {
-                var user = users.FirstOrDefault(u => u.Id == userDto.Id);
-                if (user != null)
-                {
-                  //  userDto.Role = (await _userManager.GetRolesAsync(user)).FirstOrDefault();
-                }
-            }
+           
 
             return new BaseResponse<List < UserDto >> (true, $"Reached Users successfully ", userDtos);
         }
@@ -78,7 +71,7 @@ namespace Web.Infrastructure.Service
 
             await _userManager.SetLockoutEnabledAsync(user, true);
             await _userManager.SetLockoutEndDateAsync(user, DateTimeOffset.MaxValue);
-            return new BaseResponse<bool>(true, $"User {email} locked successfully");
+            return new BaseResponse<bool>(true, $"User {user.UserName} locked successfully");
         }
 
         public async Task<BaseResponse<bool>> UnlockUserByEmailAsync(string email)
@@ -87,7 +80,7 @@ namespace Web.Infrastructure.Service
             if (user == null)return new BaseResponse<bool>(false, $"No User with this email : {email}");
 
             await _userManager.SetLockoutEndDateAsync(user, DateTimeOffset.UtcNow);
-            return new BaseResponse<bool>(true, $"User {email} unlocked successfully");
+            return new BaseResponse<bool>(true, $"User {user.UserName} unlocked successfully");
         }
     }
 }

@@ -543,3 +543,4 @@ F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\sv\Han
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
 F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+F:\Projects\Task-Management-System-API\Web.APIs\Web.APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll

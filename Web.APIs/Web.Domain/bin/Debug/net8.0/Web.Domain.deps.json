@@ -10,6 +10,7 @@
         "dependencies": {
           "Hangfire": "1.8.20",
           "Hangfire.AspNetCore": "1.8.20",
+          "Microsoft.AspNetCore.Authentication.Facebook": "8.0.16",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.14",
           "Microsoft.AspNetCore.SignalR": "1.2.0",
           "Microsoft.EntityFrameworkCore": "8.0.14",
@@ -166,6 +167,14 @@
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
           "Microsoft.Extensions.Options": "8.0.2"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.16": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "8.0.16.0",
+            "fileVersion": "8.0.1625.21611"
+          }
         }
       },
       "Microsoft.AspNetCore.Authorization/2.3.0": {
@@ -1342,6 +1351,13 @@
       "sha512": "sha512-ve6uvLwKNRkfnO/QeN9M8eUJ49lCnWv/6/9p6iTEuiI6Rtsz+myaBAjdMzLuTViQY032xbTF5AdZF5BJzJJyXQ==",
       "path": "microsoft.aspnetcore.authentication.abstractions/2.3.0",
       "hashPath": "microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZAGt3kRvWTV+J4cKxzzodqI8/qTeRgxgpI2RHGK5B12paplXMkWvFjq6vx6t60NXtxlePK4DcCXqGh3vEjoqCQ==",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.16",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.8.0.16.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/2.3.0": {
       "type": "package",

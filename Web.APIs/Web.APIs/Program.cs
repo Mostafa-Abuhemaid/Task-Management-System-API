@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Web.Application.DTOs.EmailDTO;
 using Web.Application.Interfaces;
+using Web.Application.Interfaces.ExternalAuth;
 using Web.Application.Interfaces.ExternalAuthService;
 using Web.Application.Mapping;
 using Web.Domain.Entites;
@@ -45,6 +46,7 @@ namespace Web.APIs
             builder.Services.AddTransient<IEmailService, EmailService>();
             builder.Services.AddScoped<IAccountService, AccountService>();
             builder.Services.AddScoped<IGoogleService, GoogleService>();
+            builder.Services.AddScoped<IFacebookService, FacebookService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<ITaskService, TaskService>();
             builder.Services.AddScoped<IUserService,UserService>();
@@ -53,7 +55,7 @@ namespace Web.APIs
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddHangfireServer();
             builder.Services.AddMemoryCache();
-
+            builder.Services.AddHttpClient();
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -83,6 +85,12 @@ namespace Web.APIs
                options.ClientId = "670016602508-18rt5v58f515kks4b3qctp4kqpbpc32l.apps.googleusercontent.com";
                options.ClientSecret ="GOCSPX - LuYp5dLq_1YGOWdVq7h1IrcMpfH9";
                options.CallbackPath = "/signin-google";
+           })
+           .AddFacebook("Facebook", options =>
+           {
+               options.AppId = "1208722510949314";
+               options.AppSecret = "74ff58f4a8ad83042ee2a48e02b3e0bf";
+               options.CallbackPath = "/signin-facebook";
            });
 
             var app = builder.Build();

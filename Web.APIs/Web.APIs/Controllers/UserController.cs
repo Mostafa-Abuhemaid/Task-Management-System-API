@@ -31,7 +31,7 @@ namespace Web.APIs.Controllers
             var user = await _userService.EditUserAsync(model);
             return user.Success ? Ok(user) : BadRequest();
         }
-        [Authorize(Roles = "Admin")]
+      //  [Authorize(Roles = "Admin")]
         [HttpPost("lock")]
         public async Task<IActionResult> LockUser(string email)
         {
@@ -39,21 +39,21 @@ namespace Web.APIs.Controllers
             return user.Success ? Ok(user) : BadRequest();
         }
 
-         [Authorize(Roles = "Admin")]
+       //  [Authorize(Roles = "Admin")]
         [HttpPost("unlock")]
         public async Task<IActionResult> UnlockUser(string email)
         {
             var user = await _userService.UnlockUserByEmailAsync(email);
             return user.Success ? Ok(user) : BadRequest();
         }
-        [Authorize(Roles = "Admin")] 
+       // [Authorize(Roles = "Admin")] 
         [HttpDelete("delete")]
         public async Task<IActionResult> DeleteUserByEmail(string email)
         {
             var user = await _userService.DeleteUserByEmailAsync(email);
             return user.Success ? Ok(user) : BadRequest();
         }
-        [Authorize(Roles = "Admin")] 
+       // [Authorize(Roles = "Admin")] 
         [HttpGet("All")]
         public async Task<IActionResult> GetAllUsers()
         {

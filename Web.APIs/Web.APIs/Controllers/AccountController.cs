@@ -4,6 +4,7 @@ using System.Net.Http.Headers;
 using Web.Application.DTOs;
 using Web.Application.DTOs.AccountDTO;
 using Web.Application.Interfaces;
+using Web.Application.Interfaces.ExternalAuth;
 using Web.Application.Interfaces.ExternalAuthService;
 using Web.Application.Response;
 using Web.Infrastructure.Service;
@@ -16,11 +17,13 @@ namespace Web.APIs.Controllers
     {
         private readonly IAccountService _accountService;
         private readonly IGoogleService _googleService;
-        public AccountController(IAccountService accountService, IGoogleService googleService)
+        private readonly IFacebookService _facebookService;
+        public AccountController(IAccountService accountService, IGoogleService googleService, IFacebookService facebookService)
         {
 
             _accountService = accountService;
             _googleService = googleService;
+            _facebookService = facebookService;
         }
         [HttpPost("Register")]
         public async Task<ActionResult<BaseResponse<TokenDTO>>> Login(RegisterDto registerDto)
@@ -61,6 +64,12 @@ namespace Web.APIs.Controllers
         public async Task<IActionResult> GoogleLogin( string idToken)
         {
             var result = await _googleService.GoogleSignInAsync(idToken);
+            return result.Success ? Ok(result) : BadRequest(result);
+        }
+        [HttpPost("Facebook-login")]
+        public async Task<IActionResult> FascebookLogin(string idToken)
+        {
+            var result = await _facebookService.FacebookSignInAsync(idToken);
             return result.Success ? Ok(result) : BadRequest(result);
         }
 

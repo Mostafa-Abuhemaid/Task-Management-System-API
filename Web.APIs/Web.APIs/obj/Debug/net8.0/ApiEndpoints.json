@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "Web.APIs.Controllers.AccountController",
+    "Method": "FascebookLogin",
+    "RelativePath": "api/Account/Facebook-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.APIs.Controllers.AccountController",
     "Method": "ForgetPassword",
     "RelativePath": "api/Account/ForgetPassword",
     "HttpMethod": "POST",
@@ -170,13 +186,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "PostId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -207,18 +218,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "PostId",
+        "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "addGategoryDto",
         "Type": "Web.Application.DTOs.CategoryDTO.AddGategoryDto",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
         "IsRequired": true
       }
     ],

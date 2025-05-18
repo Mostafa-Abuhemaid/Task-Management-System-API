@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vS0vUynE4XX/uvt0PfLgt7RE+9bpZZ0/SgfGegFARlWDzN8lvmazMa0XECQOBSHbuxMtAHeQOaKBxdT+xXPvXQ==",
+  "dgSpecHash": "VC+UdeeAMXDgzH62GVEm4j7pqFExQ64NikOeGsaffX266jihcxmPtth0OaoM4Kn7trt3f4xyUkNStTSwJNQcig==",
   "success": true,
   "projectFilePath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Web.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\CS\\.nuget\\packages\\hangfire.netcore\\1.8.20\\hangfire.netcore.1.8.20.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\hangfire.sqlserver\\1.8.20\\hangfire.sqlserver.1.8.20.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\8.0.16\\microsoft.aspnetcore.authentication.facebook.8.0.16.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.15\\microsoft.aspnetcore.authentication.google.8.0.15.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.14\\microsoft.aspnetcore.authentication.jwtbearer.8.0.14.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.3.0\\microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",

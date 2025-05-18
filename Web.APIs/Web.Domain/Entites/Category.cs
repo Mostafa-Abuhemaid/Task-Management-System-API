@@ -11,8 +11,9 @@ namespace Web.Domain.Entites
         
         public string Name { get; set; }
 
-        public ICollection<TaskItem> Tasks { get; set; }= new HashSet<TaskItem>();
+
         public string UserId { get; set; }
-        public AppUser User { get; set; }
+        public AppUser User { get; set; } 
+        public ICollection<TaskItem> Tasks { get; set; }= new HashSet<TaskItem>();
     }
 }
