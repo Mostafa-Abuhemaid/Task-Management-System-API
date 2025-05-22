@@ -1,6 +1,5 @@
 # Task Management System-API
 
-<h1 align="center">Task Management System Backend</h1>
 
 [.Net]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
 [C#]: https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=csharp&style=for-the-badge&logoColor=white
@@ -68,6 +67,7 @@ Features:
 | POST   | `/api/Account/Login`           | JWT authentication            |
 | POST   | `/api/Account/forget-password` | Forgot password               |
 | PUT    | `/api/Account/Reset-Password`  | Reset password                |
+| PUT    | `/api/Account/Change-Password` | Change Password               |
 | POST   | `/api/Account/VerifyOTP`       | VerifyOTP code                |
 | POST   | `/api/Account/SignIn-Google`   | Sign in with Google           |
 | POST   | `/api/Account/SignIn-Facebook` | Sign in with Facebook         |
@@ -85,8 +85,18 @@ Features:
 ### Taskes
 | Method | Endpoint                        | Description               |
 |--------|---------------------------------|---------------------------|
-| POST   | `/api/Task`                 | Create new Task               |
-| PUT    | `/api/Task/Id`              | Update Task                   |
-| DELETE | `/api/Task/Id`              | Delete Task                   |
-| GET    | `/api/Task/Id`              | Get Task details              |
-| GET    | `/api/Task`                 | Get all Taskes                |
+| POST   | `/api/Task`                     | Create new Task           |
+| PUT    | `/api/Task/Id`                  | Update Task               |
+| DELETE | `/api/Task/Id`                  | Delete Task               |
+| GET    | `/api/Task/Id`                  | Get Task details          |
+| GET    | `/api/Task`                     | Get all Taskes            |
+
+### Users
+| Method | Endpoint                        | Description               |
+|--------|---------------------------------|---------------------------|
+| POST   | `/api/User/lock`                |Lock user by its email     |
+| POST   | `/api/User/Unlock`              |UnLock user by its email   |
+| PUT    | `/api/User/EditUser`            | EditUser Details          |
+| DELETE | `/api/User/delete`              | Delete  user by its email |
+| GET    | `/api/User/userId`              | Get User details          |
+| GET    | `/api/User`                     | Get all Users             |
