@@ -9,7 +9,7 @@
 [SignalR]: https://img.shields.io/badge/SignalR-FF6F00?style=for-the-badge&logo=signalr&logoColor=white
 [Hangfire]: https://img.shields.io/badge/Fluent%20Validation-006600?style=for-the-badge
 
-![.Net] ![C#] ![SQLServer] ![Redis] ![SignalR] ![Serilog] ![Hangfire]
+![.Net] ![C#] ![SQLServer] ![Redis] ![SignalR]  ![Hangfire]
 
 <p align="center">
   <b>The Task Management System is a web application that allows users to create, manage, and track
@@ -50,17 +50,11 @@ Explore endpoints interactively via Swagger UI:
 https://doclink.runasp.net/swagger/index.html
 ```
 
-## ⚡ Real-Time Notifications
-
-**SignalR Hub Endpoint**:
-```http
-POST /chatHub
-```
 
 Features:
-- Instant messaging between patients and doctors
-- Online status notifications
-- Message history persistence
+- allows users to create, manage, and track tasks efficiently
+- Real Time notifications
+- enables users to categorize tasks
 
 
 
