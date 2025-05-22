@@ -16,7 +16,7 @@ namespace Web.APIs.Controllers
         {
             _userService = userService;
         }
-        [HttpGet("GetUserDetails")]
+        [HttpGet("{userId}")]
         public async Task<IActionResult> GetUserDetails(string userId)
         {
             
@@ -54,7 +54,7 @@ namespace Web.APIs.Controllers
             return user.Success ? Ok(user) : BadRequest();
         }
        // [Authorize(Roles = "Admin")] 
-        [HttpGet("All")]
+        [HttpGet()]
         public async Task<IActionResult> GetAllUsers()
         {
             var user = await _userService.GetAllUsersAsync();

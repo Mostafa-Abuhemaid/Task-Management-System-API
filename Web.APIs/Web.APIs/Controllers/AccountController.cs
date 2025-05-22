@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Headers;
+using System.Security.Claims;
 using Web.Application.DTOs;
 using Web.Application.DTOs.AccountDTO;
 using Web.Application.Interfaces;
@@ -70,6 +72,14 @@ namespace Web.APIs.Controllers
         public async Task<IActionResult> FascebookLogin(string idToken)
         {
             var result = await _facebookService.FacebookSignInAsync(idToken);
+            return result.Success ? Ok(result) : BadRequest(result);
+        }
+        [Authorize]
+        [HttpPost("ChangePassword")]
+        public async Task<ActionResult<BaseResponse<bool>>> ChangePassword([FromBody] ChangePasswordDto request)
+        {
+            var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier);
+            var result = await _accountService.ChangePasswordAsync(userId, request);
             return result.Success ? Ok(result) : BadRequest(result);
         }
 

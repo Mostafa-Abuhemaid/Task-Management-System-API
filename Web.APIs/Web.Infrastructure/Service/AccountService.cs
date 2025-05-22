@@ -27,7 +27,13 @@ namespace Web.Infrastructure.Service
         private readonly IEmailService _emailService;
         private readonly IMemoryCache _memoryCache;
        
-        public AccountService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IConfiguration configuration, ITokenService tokenService, IMapper mapper, IMemoryCache memoryCache, IEmailService emailService)
+        public AccountService(UserManager<AppUser> userManager,
+            SignInManager<AppUser> signInManager,
+            IConfiguration configuration,
+            ITokenService tokenService,
+            IMapper mapper,
+            IMemoryCache memoryCache, 
+            IEmailService emailService)
         {
             _userManager = userManager;
             _signInManager = signInManager; 
@@ -35,6 +41,8 @@ namespace Web.Infrastructure.Service
             _memoryCache = memoryCache;
             _emailService = emailService;
         }
+
+
 
         public async Task<BaseResponse<string>> ForgotPasswordAsync(ForgetPasswordDto request)
         {
@@ -155,6 +163,41 @@ namespace Web.Infrastructure.Service
                 Console.WriteLine($"Error in VerifyOTPAsync: {ex.Message}");
                 return new BaseResponse<bool>(false, "حدث خطأ في السيرفر، حاول مرة أخرى لاحقًا.");
             }
+
+        }
+        public async Task<BaseResponse<bool>> ChangePasswordAsync(string userId, ChangePasswordDto changePasswordDto)
+        {
+
+            var user = await _userManager.FindByIdAsync(userId);
+
+            if (user == null)
+                return new BaseResponse<bool>(false, "هذا المستخدم غير موجود");
+
+            if (changePasswordDto.NewPassword != changePasswordDto.ConfirmNewPassword)
+                return new BaseResponse<bool>(false, "كلمة السر الجديدة وتأكيد كلمة السر الجديدة غير متطابقين");
+
+            var CurrentPassword = await _userManager.CheckPasswordAsync(user, changePasswordDto.CurrentPassword);
+            if (!CurrentPassword)
+                return new BaseResponse<bool>(false, "كلمة المرور الحالية غير صحيحة");
+            var passwordPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$";
+            if (!Regex.IsMatch(changePasswordDto.NewPassword, passwordPattern))
+            {
+                return new BaseResponse<bool>(false, "كلمة المرور يجب أن تحتوي على أحرف كبيرة وصغيرة وأرقام ورموز");
+            }
+
+            var result = await _userManager.ChangePasswordAsync(
+                 user,
+                 changePasswordDto.CurrentPassword,
+                 changePasswordDto.NewPassword
+                );
+
+
+            if (result.Succeeded)
+                return new BaseResponse<bool>(true, "تم تغير كلمة السر بنجاح");
+
+
+            return new BaseResponse<bool>(false, "حدث خطأ غير متوقع ");
+
 
         }
     }

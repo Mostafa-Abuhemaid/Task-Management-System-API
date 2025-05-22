@@ -15,5 +15,6 @@ namespace Web.Application.Interfaces
         Task<BaseResponse<string>> ForgotPasswordAsync(ForgetPasswordDto request);
         Task<BaseResponse<bool>> VerifyOTPAsync(VerfiyCodeDto verify);
         Task<BaseResponse<bool>> ResetPasswordAsync(ResetPasswordDto resetPassword);
+        Task<BaseResponse<bool>> ChangePasswordAsync(string userId, ChangePasswordDto changePasswordDto);
     }
 }
