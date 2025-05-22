@@ -7,7 +7,7 @@
 [SQLServer]: https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white
 [Redis]: https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white
 [SignalR]: https://img.shields.io/badge/SignalR-FF6F00?style=for-the-badge&logo=signalr&logoColor=white
-[Hangfire]: https://img.shields.io/badge/Fluent%20Validation-006600?style=for-the-badge
+![Hangfire](https://img.shields.io/badge/Hangfire-5E0F59?style=for-the-badge&logo=hangfire&logoColor=white)
 
 ![.Net] ![C#] ![SQLServer] ![Redis] ![SignalR]  ![Hangfire]
 
