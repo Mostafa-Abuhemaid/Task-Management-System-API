@@ -229,6 +229,10 @@
               "target": "Package",
               "version": "[1.8.20, )"
             },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.Facebook": {
               "target": "Package",
               "version": "[8.0.16, )"

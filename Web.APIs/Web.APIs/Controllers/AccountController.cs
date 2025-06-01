@@ -75,7 +75,7 @@ namespace Web.APIs.Controllers
             return result.Success ? Ok(result) : BadRequest(result);
         }
         [Authorize]
-        [HttpPost("ChangePassword")]
+        [HttpPost("Change-Password")]
         public async Task<ActionResult<BaseResponse<bool>>> ChangePassword([FromBody] ChangePasswordDto request)
         {
             var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier);

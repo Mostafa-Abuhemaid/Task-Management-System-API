@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.apis\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|solutionrelative:web.apis\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.infrastructure\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|solutionrelative:web.infrastructure\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.infrastructure\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|solutionrelative:web.infrastructure\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\dtos\\categorydto\\getgategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\dtos\\categorydto\\getgategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{359CD77A-FF03-4DC8-952C-CD839FDA0693}|Web.Domain\\Web.Domain.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.domain\\entites\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{359CD77A-FF03-4DC8-952C-CD839FDA0693}|Web.Domain\\Web.Domain.csproj|solutionrelative:web.domain\\entites\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\dtos\\taskdto\\gettaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\dtos\\taskdto\\gettaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{359CD77A-FF03-4DC8-952C-CD839FDA0693}|Web.Domain\\Web.Domain.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.domain\\entites\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{359CD77A-FF03-4DC8-952C-CD839FDA0693}|Web.Domain\\Web.Domain.csproj|solutionrelative:web.domain\\entites\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|f:\\projects\\task-management-system-api\\web.apis\\web.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|solutionrelative:web.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.apis\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|solutionrelative:web.apis\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.infrastructure\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,11 +47,11 @@
       "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|f:\\projects\\task-management-system-api\\web.apis\\web.application\\dtos\\accountdto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\dtos\\accountdto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\dtos\\accountdto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|f:\\projects\\task-management-system-api\\web.apis\\web.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|solutionrelative:web.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,14 +87,6 @@
       "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\interfaces\\externalauth\\igoogleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.infrastructure\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|solutionrelative:web.infrastructure\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.infrastructure\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|solutionrelative:web.infrastructure\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.infrastructure\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|solutionrelative:web.infrastructure\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.apis\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50E198D3-C4BF-4E54-951D-111DA525555C}|Web.APIs\\Web.APIs.csproj|solutionrelative:web.apis\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{359CD77A-FF03-4DC8-952C-CD839FDA0693}|Web.Domain\\Web.Domain.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.domain\\entites\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{359CD77A-FF03-4DC8-952C-CD839FDA0693}|Web.Domain\\Web.Domain.csproj|solutionrelative:web.domain\\entites\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{359CD77A-FF03-4DC8-952C-CD839FDA0693}|Web.Domain\\Web.Domain.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.domain\\entites\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{359CD77A-FF03-4DC8-952C-CD839FDA0693}|Web.Domain\\Web.Domain.csproj|solutionrelative:web.domain\\entites\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECCE2864-44C2-4A61-A563-40C0A4CFCAC9}|Web.Infrastructure\\Web.Infrastructure.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.infrastructure\\service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\dtos\\accountdto\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\dtos\\accountdto\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -139,16 +147,8 @@
       "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\dtos\\taskdto\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\dtos\\taskdto\\gettaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\dtos\\taskdto\\gettaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\dtos\\categorydto\\addgategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\dtos\\categorydto\\addgategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\dtos\\categorydto\\getgategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|solutionrelative:web.application\\dtos\\categorydto\\getgategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{107D34F7-E038-4D59-B040-4E19DDD769D8}|Web.Application\\Web.Application.csproj|F:\\Projects\\Task-Management-System-API\\Web.APIs\\web.application\\dtos\\accountdto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -225,82 +225,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChangePasswordDto.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\ChangePasswordDto.cs",
-              "RelativeDocumentMoniker": "Web.Application\\DTOs\\AccountDTO\\ChangePasswordDto.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\ChangePasswordDto.cs",
-              "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\ChangePasswordDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T03:04:17.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IFacebookService.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\ExternalAuth\\IFacebookService.cs",
-              "RelativeDocumentMoniker": "Web.Application\\Interfaces\\ExternalAuth\\IFacebookService.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\ExternalAuth\\IFacebookService.cs",
-              "RelativeToolTip": "Web.Application\\Interfaces\\ExternalAuth\\IFacebookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T03:31:39.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TokenDTO.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\TokenDTO.cs",
-              "RelativeDocumentMoniker": "Web.Application\\DTOs\\AccountDTO\\TokenDTO.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\TokenDTO.cs",
-              "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\TokenDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T19:51:33.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Web.Application\\DTOs\\AccountDTO\\LoginDTO.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\LoginDTO.cs",
-              "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T00:28:23.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\AccountService.cs",
-              "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\AccountService.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\AccountService.cs",
-              "RelativeToolTip": "Web.Infrastructure\\Service\\AccountService.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAAAKcAAAB1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T19:51:16.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "AccountController.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Web.APIs\\Controllers\\AccountController.cs",
               "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Web.APIs\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAADEAAACAMzMzMzMhwFMAAAAJAAAA",
+              "ViewState": "AQIAADEAAACAMzMzMzMhwE0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T23:14:41.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Web.APIs\\Controllers\\UserController.cs",
@@ -313,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "FacebookService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\ExternalAuthService\\FacebookService.cs",
               "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\ExternalAuthService\\FacebookService.cs",
@@ -321,11 +259,168 @@
               "RelativeToolTip": "Web.Infrastructure\\Service\\ExternalAuthService\\FacebookService.cs",
               "ViewState": "AQIAACMAAABAMzMzMzMhwCoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T03:33:45.951Z"
+              "WhenOpened": "2025-05-18T03:33:45.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\Category.cs",
+              "RelativeDocumentMoniker": "Web.Domain\\Entites\\Category.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\Category.cs",
+              "RelativeToolTip": "Web.Domain\\Entites\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T23:01:26.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Web.Domain\\Entites\\TaskItem.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\TaskItem.cs",
+              "RelativeToolTip": "Web.Domain\\Entites\\TaskItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:22:26.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetTaskDto.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\TaskDTO\\GetTaskDto.cs",
+              "RelativeDocumentMoniker": "Web.Application\\DTOs\\TaskDTO\\GetTaskDto.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\TaskDTO\\GetTaskDto.cs",
+              "RelativeToolTip": "Web.Application\\DTOs\\TaskDTO\\GetTaskDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T14:35:07.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Web.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Mapping\\MappingProfile.cs*",
+              "RelativeToolTip": "Web.Application\\Mapping\\MappingProfile.cs*",
+              "ViewState": "AQIAAAYAAABgZmZmZmYkwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T00:28:15.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GetGategoryDto.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\CategoryDTO\\GetGategoryDto.cs",
+              "RelativeDocumentMoniker": "Web.Application\\DTOs\\CategoryDTO\\GetGategoryDto.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\CategoryDTO\\GetGategoryDto.cs",
+              "RelativeToolTip": "Web.Application\\DTOs\\CategoryDTO\\GetGategoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:24:18.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\CategoryService.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\CategoryService.cs",
+              "RelativeToolTip": "Web.Infrastructure\\Service\\CategoryService.cs",
+              "ViewState": "AQIAAA4AAABAZmZmZmYawFUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T22:17:04.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\TaskService.cs",
+              "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\TaskService.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\TaskService.cs",
+              "RelativeToolTip": "Web.Infrastructure\\Service\\TaskService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAACUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T23:27:46.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\AccountService.cs",
+              "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\AccountService.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\AccountService.cs",
+              "RelativeToolTip": "Web.Infrastructure\\Service\\AccountService.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAAAKcAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T19:51:16.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Web.Application\\DTOs\\AccountDTO\\LoginDTO.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\LoginDTO.cs",
+              "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T00:28:23.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TokenDTO.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\TokenDTO.cs",
+              "RelativeDocumentMoniker": "Web.Application\\DTOs\\AccountDTO\\TokenDTO.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\TokenDTO.cs",
+              "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\TokenDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T19:51:33.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IFacebookService.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\ExternalAuth\\IFacebookService.cs",
+              "RelativeDocumentMoniker": "Web.Application\\Interfaces\\ExternalAuth\\IFacebookService.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\ExternalAuth\\IFacebookService.cs",
+              "RelativeToolTip": "Web.Application\\Interfaces\\ExternalAuth\\IFacebookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T03:31:39.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "Web.Application\\DTOs\\AccountDTO\\ChangePasswordDto.cs",
+              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\ChangePasswordDto.cs",
+              "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\ChangePasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T03:04:17.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\IAccountService.cs",
               "RelativeDocumentMoniker": "Web.Application\\Interfaces\\IAccountService.cs",
@@ -338,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "GoogleService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\ExternalAuthService\\GoogleService.cs",
               "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\ExternalAuthService\\GoogleService.cs",
@@ -346,11 +441,12 @@
               "RelativeToolTip": "Web.Infrastructure\\Service\\ExternalAuthService\\GoogleService.cs",
               "ViewState": "AQIAABYAAACA//////8fwCkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T03:34:12.685Z"
+              "WhenOpened": "2025-05-18T03:34:12.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Program.cs",
               "RelativeDocumentMoniker": "Web.APIs\\Program.cs",
@@ -363,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\appsettings.json",
               "RelativeDocumentMoniker": "Web.APIs\\appsettings.json",
@@ -371,11 +467,12 @@
               "RelativeToolTip": "Web.APIs\\appsettings.json",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-18T11:30:28.339Z"
+              "WhenOpened": "2025-05-18T11:30:28.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "SignInGoogleDto.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\SignInGoogleDto.cs",
               "RelativeDocumentMoniker": "Web.Application\\DTOs\\AccountDTO\\SignInGoogleDto.cs",
@@ -383,11 +480,12 @@
               "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\SignInGoogleDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T10:44:40.433Z"
+              "WhenOpened": "2025-05-18T10:44:40.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "IGoogleService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\ExternalAuth\\IGoogleService.cs",
               "RelativeDocumentMoniker": "Web.Application\\Interfaces\\ExternalAuth\\IGoogleService.cs",
@@ -395,23 +493,12 @@
               "RelativeToolTip": "Web.Application\\Interfaces\\ExternalAuth\\IGoogleService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T03:31:57.194Z"
+              "WhenOpened": "2025-05-18T03:31:57.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\CategoryService.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\CategoryService.cs",
-              "RelativeToolTip": "Web.Infrastructure\\Service\\CategoryService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwE8AAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T22:17:04.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Web.Infrastructure\\Data\\AppDbContext.cs",
@@ -419,11 +506,12 @@
               "RelativeToolTip": "Web.Infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:28:46.55Z"
+              "WhenOpened": "2025-05-16T23:28:46.55Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Web.APIs\\Controllers\\CategoryController.cs",
@@ -431,11 +519,12 @@
               "RelativeToolTip": "Web.APIs\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAACUAAABAZmZmZmY9wDcAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T20:18:13.891Z"
+              "WhenOpened": "2025-05-10T20:18:13.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "UserService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\UserService.cs",
@@ -443,11 +532,12 @@
               "RelativeToolTip": "Web.Infrastructure\\Service\\UserService.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAD4v0wAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T00:32:19.902Z"
+              "WhenOpened": "2025-05-10T00:32:19.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "UserDto.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\UserDTO\\UserDto.cs",
               "RelativeDocumentMoniker": "Web.Application\\DTOs\\UserDTO\\UserDto.cs",
@@ -455,47 +545,12 @@
               "RelativeToolTip": "Web.Application\\DTOs\\UserDTO\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T00:28:52.123Z"
+              "WhenOpened": "2025-05-10T00:28:52.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\TaskService.cs",
-              "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\TaskService.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\TaskService.cs",
-              "RelativeToolTip": "Web.Infrastructure\\Service\\TaskService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T23:27:46.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\TaskItem.cs",
-              "RelativeDocumentMoniker": "Web.Domain\\Entites\\TaskItem.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\TaskItem.cs",
-              "RelativeToolTip": "Web.Domain\\Entites\\TaskItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T15:22:26.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Category.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\Category.cs",
-              "RelativeDocumentMoniker": "Web.Domain\\Entites\\Category.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\Category.cs",
-              "RelativeToolTip": "Web.Domain\\Entites\\Category.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:01:26.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Notification.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\Notification.cs",
               "RelativeDocumentMoniker": "Web.Domain\\Entites\\Notification.cs",
@@ -503,11 +558,12 @@
               "RelativeToolTip": "Web.Domain\\Entites\\Notification.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:02:53.157Z"
+              "WhenOpened": "2025-05-16T23:02:53.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Web.Application\\Interfaces\\ICategoryService.cs",
@@ -515,7 +571,8 @@
               "RelativeToolTip": "Web.Application\\Interfaces\\ICategoryService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:13:15.596Z"
+              "WhenOpened": "2025-05-16T23:13:15.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -527,11 +584,12 @@
               "RelativeToolTip": "Web.Infrastructure\\Migrations\\20250516233000_Edit Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:30:00.385Z"
+              "WhenOpened": "2025-05-16T23:30:00.385Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "AppUser.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Entites\\AppUser.cs",
               "RelativeDocumentMoniker": "Web.Domain\\Entites\\AppUser.cs",
@@ -539,11 +597,12 @@
               "RelativeToolTip": "Web.Domain\\Entites\\AppUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T23:58:33.456Z"
+              "WhenOpened": "2025-03-17T23:58:33.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "IUserService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Web.Application\\Interfaces\\IUserService.cs",
@@ -551,11 +610,12 @@
               "RelativeToolTip": "Web.Application\\Interfaces\\IUserService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T00:27:37.028Z"
+              "WhenOpened": "2025-05-10T00:27:37.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Infrastructure\\Service\\NotificationService.cs",
               "RelativeDocumentMoniker": "Web.Infrastructure\\Service\\NotificationService.cs",
@@ -563,11 +623,12 @@
               "RelativeToolTip": "Web.Infrastructure\\Service\\NotificationService.cs",
               "ViewState": "AQIAAA4AAAAANDMzMzPjvxYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:24:06.508Z"
+              "WhenOpened": "2025-05-16T00:24:06.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "INotificationService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\INotificationService.cs",
               "RelativeDocumentMoniker": "Web.Application\\Interfaces\\INotificationService.cs",
@@ -575,11 +636,12 @@
               "RelativeToolTip": "Web.Application\\Interfaces\\INotificationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T22:27:31.518Z"
+              "WhenOpened": "2025-05-16T22:27:31.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "NotificationHub.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Domain\\Hubs\\NotificationHub.cs",
               "RelativeDocumentMoniker": "Web.Domain\\Hubs\\NotificationHub.cs",
@@ -587,11 +649,12 @@
               "RelativeToolTip": "Web.Domain\\Hubs\\NotificationHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T23:50:39.806Z"
+              "WhenOpened": "2025-05-15T23:50:39.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ITaskService.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Interfaces\\ITaskService.cs",
               "RelativeDocumentMoniker": "Web.Application\\Interfaces\\ITaskService.cs",
@@ -599,11 +662,12 @@
               "RelativeToolTip": "Web.Application\\Interfaces\\ITaskService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T23:27:10.382Z"
+              "WhenOpened": "2025-05-07T23:27:10.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ForgetPasswordDto.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\AccountDTO\\ForgetPasswordDto.cs",
               "RelativeDocumentMoniker": "Web.Application\\DTOs\\AccountDTO\\ForgetPasswordDto.cs",
@@ -611,23 +675,12 @@
               "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\ForgetPasswordDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T00:28:24.839Z"
+              "WhenOpened": "2025-05-10T00:28:24.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Web.Application\\Mapping\\MappingProfile.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Web.Application\\Mapping\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:28:15.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "AddTaskDto.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\TaskDTO\\AddTaskDto.cs",
               "RelativeDocumentMoniker": "Web.Application\\DTOs\\TaskDTO\\AddTaskDto.cs",
@@ -635,11 +688,12 @@
               "RelativeToolTip": "Web.Application\\DTOs\\TaskDTO\\AddTaskDto.cs",
               "ViewState": "AQIAAAcAAAAAMzMzMzMLwBQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:34:44.038Z"
+              "WhenOpened": "2025-05-07T14:34:44.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "AddGategoryDto.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\CategoryDTO\\AddGategoryDto.cs",
               "RelativeDocumentMoniker": "Web.Application\\DTOs\\CategoryDTO\\AddGategoryDto.cs",
@@ -647,11 +701,12 @@
               "RelativeToolTip": "Web.Application\\DTOs\\CategoryDTO\\AddGategoryDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T22:16:22.945Z"
+              "WhenOpened": "2025-05-07T22:16:22.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "TaskController.cs",
               "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.APIs\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Web.APIs\\Controllers\\TaskController.cs",
@@ -659,31 +714,8 @@
               "RelativeToolTip": "Web.APIs\\Controllers\\TaskController.cs",
               "ViewState": "AQIAAAcAAAAAZ2ZmZmYGwB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T22:32:01.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "GetTaskDto.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\TaskDTO\\GetTaskDto.cs",
-              "RelativeDocumentMoniker": "Web.Application\\DTOs\\TaskDTO\\GetTaskDto.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\TaskDTO\\GetTaskDto.cs",
-              "RelativeToolTip": "Web.Application\\DTOs\\TaskDTO\\GetTaskDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADwvxIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:35:07.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "GetGategoryDto.cs",
-              "DocumentMoniker": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\CategoryDTO\\GetGategoryDto.cs",
-              "RelativeDocumentMoniker": "Web.Application\\DTOs\\CategoryDTO\\GetGategoryDto.cs",
-              "ToolTip": "F:\\Projects\\Task-Management-System-API\\Web.APIs\\Web.Application\\DTOs\\CategoryDTO\\GetGategoryDto.cs",
-              "RelativeToolTip": "Web.Application\\DTOs\\CategoryDTO\\GetGategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:24:18.872Z"
+              "WhenOpened": "2025-05-07T22:32:01.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -695,7 +727,8 @@
               "RelativeToolTip": "Web.Application\\DTOs\\AccountDTO\\RegisterDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T12:28:36.635Z"
+              "WhenOpened": "2025-05-07T12:28:36.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -707,7 +740,8 @@
               "RelativeToolTip": "Web.Infrastructure\\Migrations\\20250429174415_intial create.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:28:59.924Z"
+              "WhenOpened": "2025-05-06T22:28:59.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -719,7 +753,8 @@
               "RelativeToolTip": "Web.Application\\Response\\BaseResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:34:08.877Z"
+              "WhenOpened": "2025-03-18T00:34:08.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -731,7 +766,8 @@
               "RelativeToolTip": "Web.Domain\\Enums\\Status.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T17:56:01.42Z"
+              "WhenOpened": "2025-04-25T17:56:01.42Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -743,7 +779,8 @@
               "RelativeToolTip": "Web.Domain\\Enums\\Roles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T15:45:49.083Z"
+              "WhenOpened": "2025-03-18T15:45:49.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -755,7 +792,8 @@
               "RelativeToolTip": "Web.Domain\\Entites\\BaseClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:02:16.651Z"
+              "WhenOpened": "2025-03-18T00:02:16.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -767,7 +805,8 @@
               "RelativeToolTip": "..\\..\\..\\My Projects\\Base-Repository\\Web.APIs\\Web.Application\\DTOs\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T15:46:50.883Z"
+              "WhenOpened": "2025-03-18T15:46:50.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -779,7 +818,8 @@
               "RelativeToolTip": "Web.Infrastructure\\Service\\EmailService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:18:50.662Z"
+              "WhenOpened": "2025-04-14T06:18:50.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -791,7 +831,8 @@
               "RelativeToolTip": "Web.Application\\Interfaces\\IEmailService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:19:42.12Z"
+              "WhenOpened": "2025-04-14T06:19:42.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -803,7 +844,8 @@
               "RelativeToolTip": "Web.Application\\DTOs\\EmailDTO\\EmailDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:22:41.195Z"
+              "WhenOpened": "2025-04-14T06:22:41.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -815,7 +857,8 @@
               "RelativeToolTip": "Web.Application\\Files\\Files.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAA9wAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:26:05.468Z"
+              "WhenOpened": "2025-03-18T00:26:05.468Z",
+              "EditorCaption": ""
             }
           ]
         }

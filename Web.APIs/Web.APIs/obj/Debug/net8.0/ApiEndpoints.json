@@ -2,7 +2,7 @@
   {
     "ContainingType": "Web.APIs.Controllers.AccountController",
     "Method": "ChangePassword",
-    "RelativePath": "api/Account/ChangePassword",
+    "RelativePath": "api/Account/Change-Password",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
