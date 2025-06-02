@@ -4,11 +4,10 @@
 [.Net]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
 [C#]: https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=csharp&style=for-the-badge&logoColor=white
 [SQLServer]: https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white
-[Redis]: https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white
 [SignalR]: https://img.shields.io/badge/SignalR-FF6F00?style=for-the-badge&logo=signalr&logoColor=white
 [Hangfire]: https://img.shields.io/badge/Hangfire-5E0F59?style=for-the-badge&logo=hangfire&logoColor=white
 
-![.Net] ![C#] ![SQLServer] ![Redis] ![SignalR] ![Hangfire]
+![.Net] ![C#] ![SQLServer]  ![SignalR] ![Hangfire]
 
 <p align="center">
   <b>The Task Management System is a web application that allows users to create, manage, and track
@@ -26,7 +25,7 @@ receive real-time notifications</b>
 - **Auto-Mapping** with Mapster
 - **Background Job** with Hangfire
 ## 🛠 Tech Stack
-
+  
 - **Framework**: .NET 8
 - **Database**: SQL Server + Entity Framework Core
 - **Real-Time**: SignalR
@@ -42,15 +41,7 @@ receive real-time notifications</b>
 
 
 
-## 📚 API Documentation
-
-Explore endpoints interactively via Swagger UI:
-```
-https://doclink.runasp.net/swagger/index.html
-```
-
-
-Features:
+## Features:
 - allows users to create, manage, and track tasks efficiently
 - Real Time notifications
 - enables users to categorize tasks
